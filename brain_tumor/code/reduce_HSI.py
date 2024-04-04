@@ -16,7 +16,7 @@ d = './' # Set to the main directory
 
 def read_image(ID,rwdt=None):
 
-    # Data can be downloaded at
+    # Data is too large to be uploaded but can be downloaded at https://hsibraindatabase.iuma.ulpgc.es/
 
     if rwdt=='raw':
         fn = d+'data/HSI/%s/raw'%ID
