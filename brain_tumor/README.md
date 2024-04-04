@@ -1,3 +1,4 @@
+# README.md
 The "brain_tumor" repository contains the data and analyses of hyperspectral brain scans. The data is publicly available at https://hsibraindatabase.iuma.ulpgc.es/ and is described in https://ieeexplore.ieee.org/document/8667294. 
 
 Data reduction is done in "reduce_HSI.ipynb"
