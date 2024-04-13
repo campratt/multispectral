@@ -11,5 +11,5 @@ Data reduction is done in "reduce_HSI.ipynb"
 ## Caveats about this project:
 1. The robustness of labeled data was not given based on the grade/stage of the tumor tissue. This may be the reason why patient "056-01/02" yielded the lowest predictive metrics. In the future, one could weight the training examples based on such information; in other words, lower grade tumors could be given more weight since they are not as easy to identify. Furthermore, the selection of training/validation samples were selected arbitrarily, and changing these could provide insight to any systematic biases that may exist.
 2. The broad band averaging was also an arbitrary choice. More elaborate techniques for reducing the spectral dimension (e.g. PCA) should be explored.
-3. For simplicity, the only model architectures considered were 3D and 2D CNNs. Other architectures, such as spectral inception modules, would likely provide improvements.
+3. For simplicity, the only model architectures considered were 3D and 2D CNNs. Other architectures, such as spectral inception modules, would likely provide improvements. In fact, the hyperparameter space was not explored extensively, but this would be imperative for real-world studies.
 
