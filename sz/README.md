@@ -8,6 +8,9 @@ Data reduction:
 
 - Plotted in "evaluate_model.ipynb" and "model_performance.png" shows the model prediction, ground truth, and the residuals between them.
 
-## Caveats about this project:
-1. 
+- 
+
+## Notes about this project:
+1. We find the model to perform very well on the validation data, however, its performance on the real sky must be taken with a grain of salt. It is likely the model is overfitting to the simulated data which includes the validation set. At this point, more diverse sets of simulated data are needed in order to prevent overfitting.
+2. This is still a work in progress. A link to the finished paper will be provided once it is published.
 
