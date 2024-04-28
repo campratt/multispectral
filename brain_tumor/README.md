@@ -1,5 +1,5 @@
 # README
-This was an extracurricular project that used hyperspectral brain scans to differentiate between normal and tumor tissue. The data are publicly available at https://hsibraindatabase.iuma.ulpgc.es/ and are described in https://ieeexplore.ieee.org/document/8667294. 
+This was an extracurricular project that used hyperspectral scans to differentiate between normal and tumor tissue in brain cancer patients. The data are publicly available at https://hsibraindatabase.iuma.ulpgc.es/ and are described in https://ieeexplore.ieee.org/document/8667294. 
 
 Data reduction is done in "reduce_HSI.ipynb"
 - The data preprocessing procedure generally follows that done by Fabelo et al. (2019; https://arxiv.org/pdf/2402.10776.pdf). The raw data consists of 826 frequency bands separated by ~0.7 nm. During data reduction, the first and last few frequency bands were omitted to avoid large instrumental uncertainties. The spectral dimension was further reduced to a sampling of ~7 nm by averaging contiguous bands into 63 broad bands. White and dark images were used for flat fielding and zero-point corrections, respectively. Finally, each pixel was normalized to have a maximum value of unity and a minimum of zero.
